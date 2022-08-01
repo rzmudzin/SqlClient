@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SqlClient.macos'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A short description of SqlClient.macos.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
 	 s.osx.deployment_target = "12.3"
  #  s.osx.deployment_target = "10.10"
 
-	 s.source_files = 'SqlClient.macos/Classes/**/*', 'SqlClient.macos/src/**/*'
+	 s.source_files = 'SqlClient.macos/Classes/**/*', 'SqlClient.macos/src/**/*', 'SqlClient.macos/lib/**/*'
 
 	 
 	 s.vendored_libraries = 'SqlClient.macos/lib/libsybdb.a'
